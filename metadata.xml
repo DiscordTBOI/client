@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>DiscordTBOA</name>
+    <directory>discordtboa</directory>
+    <id>844440401</id>
+    <description>
+    Allows easy communication between your game and the DiscordTBOA discord bot. 
+    </description>
+    <version>0.1</version>
+    <visibility>Public</visibility>
+</metadata>
