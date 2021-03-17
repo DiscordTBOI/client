@@ -1,11 +1,18 @@
 require("constants")
+<<<<<<< HEAD
+=======
 require("config")
+>>>>>>> 5618dbe08556b17383c8a2567158bdcd3fafbd50
 local DiscordTBOI = RegisterMod("DiscordTBOI", 1)
 
 local Socket = require("socket")
 local tcp = Socket.tcp()
 tcp:settimeout(0.0001)
+<<<<<<< HEAD
+tcp:connect("127.0.0.1", 100)
+=======
 tcp:connect(HOST, PORT)
+>>>>>>> 5618dbe08556b17383c8a2567158bdcd3fafbd50
 Isaac.ConsoleOutput("DiscordTBOI: Connected to server")
 
 local rng = RNG()
