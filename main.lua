@@ -14,7 +14,7 @@ rng:SetSeed(os.time(), 1)
 local userId = rng:Next()
 
 tcp:send(PACKET_SEND_CODES["AUTH"] .. userId)
-Isaac.ConsoleOutput("DiscordTBOI: Your ID is" .. userId)
+Isaac.ConsoleOutput("DiscordTBOI: Your ID is" .. userId .. "\n")
 
 function DiscordTBOI:Immortality(_mod)
     local player = Isaac.GetPlayer(0)
